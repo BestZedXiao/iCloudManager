@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  iCloudManager
+//
+//  Created by rbt-Macmini on 2018/4/25.
+//  Copyright © 2018年 Mr.Xiao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "Masonry.h"
+
+//设备尺寸
+#define SCREEN_BOUNDS   [[UIScreen mainScreen] bounds]
+#define SCREEN_WIDTH    [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT   [[UIScreen mainScreen] bounds].size.height
+
+#define IS_iOS_11 @available(iOS 11.0, *)
+
+
+#endif /* PrefixHeader_pch */
