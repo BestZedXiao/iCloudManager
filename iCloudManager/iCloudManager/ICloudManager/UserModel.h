@@ -10,7 +10,7 @@
 
 @interface UserModel : NSObject
 
-@property (nonatomic, assign) NSInteger  age;
+@property (nonatomic, copy) NSString *age;
 @property (nonatomic, copy) NSString *creatTime;
 @property (nonatomic, copy) NSString *passWord;
 @property (nonatomic, copy) NSString *userName;

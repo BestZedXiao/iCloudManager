@@ -13,7 +13,6 @@
 		5B4DCD7A20905D0C0039ABA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DCD7920905D0C0039ABA2 /* Assets.xcassets */; };
 		5B4DCD7D20905D0C0039ABA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DCD7B20905D0C0039ABA2 /* LaunchScreen.storyboard */; };
 		5B4DCD8020905D0C0039ABA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCD7F20905D0C0039ABA2 /* main.m */; };
-		5B4DCD8920905D870039ABA2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4DCD8820905D870039ABA2 /* CloudKit.framework */; };
 		5B4DCD8C20905DF80039ABA2 /* MXiCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCD8B20905DF80039ABA2 /* MXiCloudManager.m */; };
 		5B4DCD8F209063110039ABA2 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCD8E209063110039ABA2 /* UserModel.m */; };
 		5B4DCD952090722B0039ABA2 /* MBProgressHUD+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCD932090722A0039ABA2 /* MBProgressHUD+Ex.m */; };
@@ -34,6 +33,7 @@
 		5B4DCDC6209082600039ABA2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCDC5209082600039ABA2 /* MainViewController.m */; };
 		5B4DCDC92090829C0039ABA2 /* ResignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCDC82090829C0039ABA2 /* ResignViewController.m */; };
 		5B4DCDCC209082B50039ABA2 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DCDCB209082B50039ABA2 /* ForgetViewController.m */; };
+		5B4DCDCE209186CA0039ABA2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4DCDCD209186CA0039ABA2 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +48,6 @@
 		5B4DCD7E20905D0C0039ABA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4DCD7F20905D0C0039ABA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B4DCD8620905D850039ABA2 /* iCloudManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudManager.entitlements; sourceTree = "<group>"; };
-		5B4DCD8820905D870039ABA2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		5B4DCD8A20905DF80039ABA2 /* MXiCloudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXiCloudManager.h; sourceTree = "<group>"; };
 		5B4DCD8B20905DF80039ABA2 /* MXiCloudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXiCloudManager.m; sourceTree = "<group>"; };
 		5B4DCD8D209063110039ABA2 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
@@ -93,6 +92,7 @@
 		5B4DCDC82090829C0039ABA2 /* ResignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResignViewController.m; sourceTree = "<group>"; };
 		5B4DCDCA209082B50039ABA2 /* ForgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
 		5B4DCDCB209082B50039ABA2 /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		5B4DCDCD209186CA0039ABA2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4DCD8920905D870039ABA2 /* CloudKit.framework in Frameworks */,
+				5B4DCDCE209186CA0039ABA2 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 		5B4DCD8720905D870039ABA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B4DCD8820905D870039ABA2 /* CloudKit.framework */,
+				5B4DCDCD209186CA0039ABA2 /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
